@@ -3,14 +3,14 @@
     active:
       - dev
 
----  
+--- 
 spring:
-  profiles: dev   #开发环境
+  profiles: dev   #dev enviroment
   application:
     name: microservicecloud-config-vincent-dev
 
----	
+---
 spring:
-  profiles: dev  #测试环境
+  profiles: dev  #testing enviroment
   application:
     name: microservicecloud-config-vincent-test
