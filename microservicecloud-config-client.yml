@@ -6,7 +6,7 @@
 ---
 server:
   port: 8021
- spring:
+spring:
   profiles: dev
   application:
     name: microservicecloud-config-client
@@ -18,7 +18,7 @@ eureka:
 ---
 server:
   port: 8022
- spring:
+spring:
   profiles: test
   application:
     name: microservicecloud-config-client
