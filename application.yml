@@ -11,6 +11,6 @@ spring:
 
 ---
 spring:
-  profiles: dev  #testing enviroment
+  profiles: test  #testing enviroment
   application:
     name: microservicecloud-config-vincent-test
