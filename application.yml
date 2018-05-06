@@ -7,10 +7,10 @@
 spring:
   profiles: dev   #开发环境
   application:
-	name: microservicecloud-config-vincent-dev
+    name: microservicecloud-config-vincent-dev
 
 ---	
 spring:
   profiles: dev  #测试环境
   application:
-	name: microservicecloud-config-vincent-test
+    name: microservicecloud-config-vincent-test
