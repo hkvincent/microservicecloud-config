@@ -1,7 +1,7 @@
 ﻿spring:
   profiles:
     active:
-	- dev
+       - dev
 	
 ---
 server:
@@ -13,8 +13,8 @@ server:
 eureka:
   client:
     service-url:
-	  defaultZone: http://eureka-dev.com:7001/eureka/
-	  
+       defaultZone: http://eureka-dev.com:7001/eureka/
+
 ---
 server:
   port: 8022
@@ -25,4 +25,4 @@ server:
 eureka:
   client:
     service-url:
-	  defaultZone: http://eureka-test.com:7001/eureka/
+       defaultZone: http://eureka-test.com:7001/eureka/
